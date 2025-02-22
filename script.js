@@ -1,8 +1,8 @@
 //your JS code here. If required.
 document.getElementById('submit').addEventListener('click', function() {
-      const title = document.getElementById('title').value.trim();
-      const author = document.getElementById('author').value.trim();
-      const isbn = document.getElementById('isbn').value.trim();
+      const title = document.getElementById('title').value;
+      const author = document.getElementById('author').value;
+      const isbn = document.getElementById('isbn').value;
 
       if (title === '' || author === '' || isbn === '') {
         alert('Please fill in all fields');
