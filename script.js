@@ -1,5 +1,6 @@
 //your JS code here. If required.
-document.getElementById('submit').addEventListener('click', function() {
+document.getElementById('submit').addEventListener('click', function(e) {
+	  e.preventDefault();
       const title = document.getElementById('title').value;
       const author = document.getElementById('author').value;
       const isbn = document.getElementById('isbn').value;
